@@ -31,7 +31,7 @@ This example demonstrates a CSRF attack using PHP, SQLite, and HTML. The scenari
    Navigate to your desired directory and clone the example.
 
    ```bash
-   git clone <repository_url> CSRF_attack_demo
+   git clone <repository_url> CSRF_PasswordAttack
     ```
 2. **Terminal 1**
     ```bash
